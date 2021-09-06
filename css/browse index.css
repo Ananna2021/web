@@ -1,0 +1,651 @@
+*{margin: 0;
+  padding: 0;
+  }
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spectral:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Vidaloka&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+  .content{
+  	       background-color: #f7f4f6;
+  	       width:100%;
+  	       height: 3000px;
+  	       margin: auto;
+           position: absolute;
+  }
+  .upperbar{
+  	       width: 300px;
+  	       background-color: #2c0c8d;
+  	       height: 200px;
+  	       line-height: 200px;
+           padding-left: 800px;
+           float: right;
+
+           
+  }
+.upperbar ul li{display: inline-block;
+              }
+ .upperbar ul li a { font-size: 20px;
+                    color: white;
+                    width: 600px;
+                    margin: 20px; 
+                    transition: .5s;
+                    text-decoration: none;
+
+                    }
+
+
+.upperbar ul li a:hover{ color: black;
+                        font-size: 30px;
+                        transition: .5s; }
+
+.logo {    width: 600px;
+           background-color: #301899;
+           height: 200px;
+           line-height: 200px;
+           padding-right: 600px;
+                      
+}
+.logo img{  width: 35%;
+            padding-top: 50px;
+            padding-left: 50px;
+            
+
+            }
+
+
+
+
+ .menubar{ width: 80%;
+            height: 100px;
+            background-color:#213591;
+            margin: auto;
+            margin-top: 100px;
+            line-height: 100px; 
+            padding-left: 100px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+
+
+
+
+.menubar ul li{display: inline-block;
+              }
+ .menubar ul li a { font-size: 30px;
+                    color: white;
+                    width: 600px;
+                    margin: 40px; 
+                    text-decoration: none; 
+                    font-size: 30px;
+                    color: white;
+    
+  text-shadow: 2px 2px 4px #000000;
+
+                    
+
+                    }
+
+
+.menubar ul li a:hover{ background-color: #f5edf1;
+                        display: inline-block;
+                        color: black;
+                        margin: auto;
+                        height: 100px;
+                        width: auto;
+                        font-size: 35px;
+                         
+                         }
+
+                         
+.menubar i{ 
+            height: 50px;
+            width: 500px;
+            background-color: white; 
+            float: right;
+            margin-top: 25px;
+            margin-left: 950px;
+            position: absolute;
+            text-align: center;
+            line-height:50px;
+            font-size: 20px;
+            color: #DCD1D6;
+
+
+          }
+
+  .menubar i:hover{ color: white; }  
+   .recomand{ color: white;
+              padding-left: 180px;
+              font-size: 35px;
+              padding-top: 160px; 
+            font-family: 'Actor', sans-serif;
+             text-shadow: 2px 2px 4px #000000;
+          }
+    .recomand:hover{ text-decoration: underline; }                 
+
+
+
+.tril{height: 50px;
+      width: 50px;
+      background-color: #f0f18a;
+      float: left;
+      margin-top: 300px;
+      margin-left: 130px;
+      opacity: 50%;
+
+}
+
+.tril:hover{ opacity: 100%;
+              }
+
+
+.trir{height: 50px;
+      width: 50px;
+      background-color: #f3e8f1;
+      float: right;
+      margin-top: 300px;
+      margin-right:130px;
+      opacity: 50%;
+}
+.trir:hover{opacity: 100}
+
+.cyberpunk{ height: 505px;
+            width: 1500px;
+            background-color: #881e26;
+            margin: auto;
+            margin-top: 100px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            
+ }
+.cyberpunk img{width: 60%;
+               float: left;}
+.cybimg img{
+            
+            height: 150px;
+
+            width: 17%;
+            float: left;
+            padding-top: 30px;
+            padding-left: 30px;
+            transition: .5s;
+
+
+          }
+          .cybimg b img{ width: 100px;
+                          height: 100px;
+                          transition: none;
+                          margin-left: 200px; }
+
+
+.cybimg b img:hover{ width: 100px;
+                          height: 100px; 
+                          }
+
+
+.cybimg img:hover{
+
+            width: 18%;
+            transition: .5s;
+
+
+}          
+.cybprice {
+           width: 200px; 
+           float: left;
+           padding-left: 50px;
+          padding-top: 50px;
+          color: white;}
+
+          .cybprice h1:hover { text-decoration: underline; }
+
+ .ovalmark{ display: inline-block;
+            
+            width: 1000px;
+            margin-left: 600px; 
+          }         
+
+        .ovalicon{ 
+                 width: 1px;
+                 height: 1px;
+                 background-color: #f7f2f6;
+                 
+                 padding-top: 30px;
+                 margin-right: 40px;
+                 padding-left: 20px;
+                 float: left;
+
+
+                  }
+
+
+.shortmenu{
+             width: 80%;
+            height: 100px;
+            background-color:#3D0234;
+            margin: auto;
+            margin-top: 150px;
+            line-height: 100px; 
+            padding-left: 100px;
+           
+            }
+.shortmenu ul li{display: inline-block;
+              }
+ .shortmenu ul li a { 
+                    color: white;
+                    width: 300px;
+                    margin: 30px; 
+                    text-decoration: none; 
+                    font-size: 20px;
+                    
+                    transition: .5s;
+                    text-shadow: 2px 2px 4px #000000;
+font-family: 'Actor', sans-serif;
+                    }
+    
+  .shortmenu ul li a:hover{ color: #900746;
+                        font-size: 25px;
+                        transition: .5s; }
+
+
+
+
+.box{ height: 1060px;
+      width:  1300px;
+      background-color: #C4BFC1;
+      margin: auto;
+      padding: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+  
+}
+.dragonball{height: 320px;
+            width: 400px;
+            background-color: white;
+            float: right;
+            filter: brightness(80%);
+
+            }
+
+            .dragonball:hover{ filter: brightness(100%); }
+
+
+
+
+
+            .dragonball b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+
+.dragonball b:hover{ text-decoration:underline; }
+
+            .dragonball h2{ margin-left: 20px;
+                            
+                            margin-top: 5px; }
+
+
+.dragonball h2:hover{ text-decoration:underline;  }
+
+          
+
+
+
+
+                  .Deathstranding{height: 320px;
+            width: 400px;
+            background-color: white;
+            margin-right: 50px;
+            filter: brightness(80%);
+            
+            float: right;
+
+            
+            }
+            .Deathstranding:hover{ filter: brightness(100%); }
+
+
+            .Deathstranding b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                        
+                           
+                            }
+
+
+                            .Deathstranding b:hover{ text-decoration:underline; }
+            .Deathstranding h2{ margin-left: 20px;
+                               
+                            margin-top: 5px; }
+
+
+.Deathstranding h2:hover{ text-decoration:underline;  }
+
+            .fa { float: right; 
+                  
+                  margin-right: 20px;   }
+
+
+
+                   .Devilmaycry{height: 320px;
+            width: 400px;
+            background-color: white;
+            filter: brightness(80%);
+           
+            float: left;
+
+            }
+
+            .Devilmaycry:hover{ filter: brightness(100%); }
+
+            .Devilmaycry b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+.Devilmaycry b:hover{ text-decoration:underline; }
+
+            .Devilmaycry h2{ margin-left: 20px;
+                            
+                            margin-top: 5px; }
+
+.Devilmaycry h2:hover{ text-decoration:underline; }
+
+        
+
+
+
+
+                   .metro{height: 320px;
+            width: 400px;
+            background-color: white;
+            margin-top: 50px;
+            float: left;
+            filter: brightness(80%);
+            
+
+            }
+            .metro:hover{ filter: brightness(100%); }
+
+            .metro b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+
+  .metro b:hover{ text-decoration:underline; }
+
+            .metro h2{ margin-left: 20px;
+                            margin-top: 5px; }
+
+       .metro h2:hover{ text-decoration:underline; }
+                            
+            .fa { float: right; 
+                  
+                  margin-right: 20px;   }
+
+
+
+
+
+                   .control{height: 320px;
+            width: 400px;
+            background-color: white;
+            margin-top: 50px;
+            float: right;
+            filter: brightness(80%);
+
+
+            }
+
+            .control:hover{ filter: brightness(100%); }
+
+            .control b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+            .control b:hover{ text-decoration:underline; }   
+                       
+            .control h2{ margin-left: 20px;
+                            
+                            margin-top: 5px; }
+
+                .control h2:hover{ text-decoration:underline; }              
+         
+
+                         .darksiders{height: 320px;
+            width: 400px;
+            background-color: white;
+            margin-right: 50px;
+            margin-top: 50px;
+            float: right;
+            filter: brightness(80%);
+
+            }
+ .darksiders:hover{ filter: brightness(100%); }
+
+            .darksiders b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+      .darksiders b:hover{ text-decoration:underline; }                      
+
+
+            .darksiders h2{ margin-left: 20px;
+                            
+                            margin-top: 5px; }
+.darksiders h2:hover{ text-decoration:underline; } 
+
+
+            .fa { float: right; 
+                  
+                  margin-right: 20px;   }
+
+
+
+
+
+                   .doom{height: 320px;
+            width: 400px;
+            background-color: white;
+            margin-top: 50px;
+            float: left;
+            filter: brightness(80%);
+
+            }
+            .doom:hover{ filter: brightness(100%); }
+
+            .doom b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+      .doom b:hover{ text-decoration:underline; } 
+                            
+            .doom h2{ margin-left: 20px;
+                            
+                            margin-top: 5px; }
+
+ .doom h2:hover{ text-decoration:underline; }                            
+
+
+       
+
+                   .crusedar{height: 320px;
+            width: 400px;
+            background-color: white;
+            margin-top: 50px;
+            float: right;
+            filter: brightness(80%);
+
+
+            }
+
+            .crusedar:hover{ filter: brightness(100%); }
+
+            .crusedar b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+            .crusedar b:hover{ text-decoration:underline; } 
+
+            .crusedar h2{ margin-left: 20px;
+                            
+                            margin-top: 5px; }
+           .crusedar h2:hover{ text-decoration:underline; }             
+
+            .fa { float: right; 
+                  
+                  margin-right: 20px;   }
+
+
+
+                   .witcher3{height: 320px;
+            width: 400px;
+            background-color: white;
+            margin-right: 50px;
+            margin-top: 50px;
+            float: right;
+            filter: brightness(80%);
+
+            }
+
+            .witcher3:hover{ filter: brightness(100%); }
+
+            .witcher3 b{ 
+                           font-size: 20px;
+                           padding-left: 20px;
+                           
+                            }
+             .witcher3 b:hover{ text-decoration:underline; }               
+
+            .witcher3 h2{ margin-left: 20px;
+                            
+                            margin-top: 5px; }
+              .witcher3 h2:hover{ text-decoration:underline; }              
+    
+
+                  .recomendations { width: 100%;
+                                    height: 290px;
+                                     background-color: white;
+                                     text-align: center; 
+                                      margin-top: 100px;
+                                      padding-top: 90px;}
+
+
+
+
+                  .recomendations h1{ margin-bottom:  30px;
+                                      color: #68085A; 
+                                      font-family: 'PT Sans', sans-serif; }
+
+
+                 .recomendations h2{ margin-bottom: 20px;
+                                     background-color: #300d68;
+                                      height: 38px;
+                                      width: 110px;
+                                      border-radius: 10px;
+                                       padding-top: 10px;
+                                       margin-left: 880px;
+                                       color: white;
+                                       font-family: 'Actor', sans-serif;
+                                       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                         }
+
+                 .recomendations h2:hover { height:40px;
+                                            width: 112px;
+                                            padding-top: 12px;   }          
+
+                  .recomendations h3{ margin-bottom: 20px; }
+
+
+
+
+
+                  .corporation { width: 100%;
+                                 height: 250px;
+                                 background-color: #3D0234;
+                                  text-align: center;
+                                  padding-top: 100px;
+                                }
+                                .corporation p{font-size: 17px;
+                                              color: white;}
+
+
+
+                                  .corporation ul li {display: inline-block;
+              }
+
+              .corporation ul li a{  color: white;
+                                     width: 300px;
+                                     margin: 10px; 
+                                     
+                                    font-size: 20px;
+                    
+                                    transition: .3s;
+                                     }
+                                   
+
+
+
+           .corporation ul li a:hover{ 
+                                     font-size: 22px;
+                                     transition: .3s; }                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+              
+
+
+
+
+
+
+
+         
+
+
+           
+
+
+
+
+       
+
+
+           
+
